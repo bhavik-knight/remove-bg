@@ -1,0 +1,12 @@
+[project]
+name = "remove-bg"
+version = "0.1.0"
+description = "Removes background from the photo"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "onnxruntime>=1.23.2",
+    "pillow>=12.0.0",
+    "rembg>=2.0.67",
+    "ruff>=0.14.2",
+]
